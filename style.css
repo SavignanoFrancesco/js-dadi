@@ -10,7 +10,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://lh3.googleusercontent.com/proxy/XHE_bqNwjgxOvFwsa1gb54An6A7Tr4CEhXkzl2-SCE8rX10RFonrSjuKqctyIvqXINodKsbPMXDn6q4xSAFaaDSb6X5gMC7MAeSavHwQpdImw6xYDSCwxdugIUt80g');
+    background-image: url('https://ak.picdn.net/shutterstock/videos/18056959/thumb/1.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -18,16 +18,44 @@ main{
 .box{
     display: flex;
     flex-direction: column;
-    border: 3px solid black;
+    border: 5px solid black;
+}
+
+#risultato{
+    text-align: center;
+    padding: 10px 0;
+    background-color: whitesmoke;
+}
+#dadi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
 }
 
 #dado1{
     text-align: center;
-    padding: 20px;
-    background-color: whitesmoke;
+    padding: 10px 17px;
+    border: 1px solid black;
+    margin: 4px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.vs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;
 }
 #dado2{
     text-align: center;
-    padding: 20px;
-    background-color: white;
+    padding: 10px 17px;;
+    border: 1px solid black;
+    margin: 4px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
 }
