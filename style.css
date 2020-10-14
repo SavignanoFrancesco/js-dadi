@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://lh3.googleusercontent.com/proxy/XHE_bqNwjgxOvFwsa1gb54An6A7Tr4CEhXkzl2-SCE8rX10RFonrSjuKqctyIvqXINodKsbPMXDn6q4xSAFaaDSb6X5gMC7MAeSavHwQpdImw6xYDSCwxdugIUt80g');
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+}
+
+#dado1{
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+#dado2{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
